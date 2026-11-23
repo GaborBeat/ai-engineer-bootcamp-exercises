@@ -1,4 +1,4 @@
-# App A: Pip, a trivia host
+# App A: Skipper, a trivia host
 
 This is the Session 1 assistant, grown from one file to three. It does the same job: you type a message in the browser, and the model replies in a personality set by a system prompt. Two things are new: the settings live in their own file, and every conversation is saved to disk.
 
