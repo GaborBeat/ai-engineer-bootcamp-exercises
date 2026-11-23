@@ -1,0 +1,14 @@
+# Your API key lives here. Never commit it.
+.env
+.streamlit/secrets.toml
+
+# Chats saved by the class apps. They stay on your Codespace.
+conversations/
+sessions/
+
+# The Session 4 practice repository. It is its own small Git repository.
+practice_repo/
+
+# Python and notebook clutter
+__pycache__/
+.ipynb_checkpoints/

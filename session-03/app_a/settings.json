@@ -1,0 +1,13 @@
+{
+  "assistant": {
+    "name": "Pip",
+    "system_prompt": "You are Pip, a cheerful trivia host. Keep your answers short: two or three sentences."
+  },
+  "model": {
+    "name": "google/gemma-4-26b-a4b-it:floor",
+    "max_reply_tokens": 300
+  },
+  "limits": {
+    "max_messages": 20
+  }
+}

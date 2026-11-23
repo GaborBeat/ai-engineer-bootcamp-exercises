@@ -1,0 +1,21 @@
+{
+  "id": "gen-sample-0001",
+  "object": "chat.completion",
+  "created": 1795476127,
+  "model": "google/gemma-4-26b-a4b-it",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Here we go! Which planet has the most moons? Take a guess!"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 34,
+    "completion_tokens": 15,
+    "total_tokens": 49
+  }
+}

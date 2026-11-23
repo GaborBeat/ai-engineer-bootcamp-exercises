@@ -1,0 +1,31 @@
+{
+  "assistant": "Pip",
+  "model": "google/gemma-4-26b-a4b-it:floor",
+  "message_count": 6,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Give me a trivia question about space."
+    },
+    {
+      "role": "assistant",
+      "content": "Here we go! Which planet has the most moons? Take a guess!"
+    },
+    {
+      "role": "user",
+      "content": "Is it Jupiter?"
+    },
+    {
+      "role": "assistant",
+      "content": "So close! Saturn holds the record, with well over 100 known moons. Want another one?"
+    },
+    {
+      "role": "user",
+      "content": "Yes, an easier one please."
+    },
+    {
+      "role": "assistant",
+      "content": "Sure thing! What is the name of the galaxy we live in?"
+    }
+  ]
+}

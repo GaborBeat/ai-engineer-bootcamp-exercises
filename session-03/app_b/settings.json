@@ -1,0 +1,30 @@
+{
+  "assistant": {
+    "name": "Sage",
+    "persona": {
+      "role": "a patient study coach for people who are learning to code",
+      "tone": "encouraging and plain-spoken",
+      "rules": [
+        "Keep every answer under three sentences.",
+        "End with one short question that checks understanding."
+      ]
+    }
+  },
+  "model": {
+    "name": "google/gemma-4-26b-a4b-it:floor",
+    "max_tokens": 200,
+    "temperature": 0.7
+  },
+  "history": {
+    "max_turns": 6
+  },
+  "storage": {
+    "folder": "sessions"
+  },
+  "display": {
+    "show_stats": true
+  },
+  "commands": {
+    "quit": ["quit", "exit", "bye"]
+  }
+}
